@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GetCourseDetailsRequest xmlsn = "https://github.com/snowtoslow/SOAP"
+                            schemaLocation="https://github.com/snowtoslow/SOAP course-details.xsd"
+                            xsi="http://www.w3.org/2001/XMLSchema/instance">
+    <id>1</id>
+</GetCourseDetailsRequest>

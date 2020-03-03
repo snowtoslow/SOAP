@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GetCourseDetailsResponse xmlns = "https://github.com/snowtoslow/SOAP"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+                            xsi:schemaLocation="https://github.com/snowtoslow/SOAP course-details.xsd"> <!--xmlsn is used here to make difference between your web serivces and other-->
+    <CourseDetails>
+        <id>1</id>
+        <name>SOAP</name>
+        <description>Simple application to learn SOAP</description>
+    </CourseDetails>
+</GetCourseDetailsResponse>
