@@ -17,6 +17,39 @@
             </sequence>
         </complexType>
     </element>
+
+
+    <element name="GetAllCourseDetailsRequest">
+        <complexType>
+        </complexType>
+    </element>
+    <element name="GetAllCourseDetailsResponse">
+        <complexType>
+            <sequence>
+                <element name="CourseDetails" type="tns:CourseDetails" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="DeleteCourseDetailsRequest">
+        <complexType>
+            <sequence>
+                <element name="id" type="int"></element>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="DeleteCourseDetailsResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="string"/>
+            </sequence>
+        </complexType>
+    </element>
+
+
+
+
+
     <complexType name="CourseDetails">
         <sequence>
             <element name="id" type="int"></element>
